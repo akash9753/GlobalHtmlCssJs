@@ -38,3 +38,10 @@ Ex13 =>
       Here are the inline elements in HTML:
 
 <!-- <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var> -->
+
+span and divs are used to group similar element together
+
+if inline, internal and external css have same rules in that case inline css will be followed
+
+if internal and external css have same rules then it will depends on order of where link is written
+

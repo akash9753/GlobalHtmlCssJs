@@ -1,0 +1,9 @@
+.pTagColorChange p{
+    color: blue;
+}
+.uppercase h4{
+    text-transform: uppercase;
+}
+.cursive h4{
+    font-family: cursive;
+}

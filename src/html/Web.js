@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from '../styles/web.module.css'
 const Ex1 = () => {
   useEffect(() => {
     document.title = "This is a title";
   }, []);
-  return (
+ return (
     <>
       {/* Navigation -----------------------------------------------------*/}
       <nav>
@@ -16,7 +17,6 @@ const Ex1 = () => {
           <a href="#comments-section">Go to Comments</a>
         </h3>
       </nav>
-
       {/* Header ---------------------------------------------------------*/}
       <header>
         {/* logo */}
@@ -24,28 +24,36 @@ const Ex1 = () => {
           <img src="../media/logo.png" alt="" />
         </a>
         {/* Website Link */}
-        <h2>
-          <a href="https://www.codingninjas.com/" target="_blank">
-            blog.codingninjas.in
-          </a>
-        </h2>
+        <div>
+          <p>
+            <a href="https://www.codingninjas.com/" target="_blank">
+              blog.codingninjas.in
+            </a>
+          </p>
+        </div>
         {/* Header Image */}
         <img src="../media/cn2.png" alt="" />
       </header>
-
-      {/* Main -----------------------------------------------------------*/}
+       {/* Main -----------------------------------------------------------*/}
+      <div className={styles.pTagColorChange}>
       <main>
         {/* Blog Heading */}
-        <h1>Five tips for front-end web development</h1>
+        <header>
+          <h1>Five tips for front-end web development</h1>
+        </header>
+        <article>
         {/* Blog Image */}
+        <div>
         <img
           src="../media/cn1.jpg"
           alt="Coding ninja"
           width="100%"
           height="500"
         />
+        </div >
         {/* Content */}
         {/* Paragraph 1 */}
+        {/* <p style={{color:'red'}}> */}
         <p>
           Don’t <>&nbsp;</> you just love exploring beautiful and neat sites
           with a clean user interface? While most of us would reply with an
@@ -61,9 +69,10 @@ const Ex1 = () => {
         </p>
         {/* Paragraph 2 */}
         {/* List */}
+        <div className={`${styles.uppercase} ${styles.cursive}`}>
         <ol>
           <li>
-            <h4>Commenting</h4>
+            <h4 >Commenting</h4>
             <p>
               Commenting is one such practice that is often ignored by
               programmers, especially for codes that are written by multiple
@@ -136,6 +145,7 @@ const Ex1 = () => {
             </p>
           </li>
         </ol>
+        </div>
         <p>
           While these tips will surely help you become a better front-end
           designer, in the long run, you must always remember two things while
@@ -144,7 +154,7 @@ const Ex1 = () => {
         </p>
 
         <section id="comments-section">
-          <h2> Comments </h2>
+          <div> Comments </div>
           <div>
             <h4> Name </h4>
             <p> Comment </p>
@@ -161,8 +171,9 @@ const Ex1 = () => {
         <a href="#"> Back to Top </a>
 
         {/* Ending Paragraph */}
+        </article>
       </main>
-
+      </div>
       {/* Footer ---------------------------------------------------------*/}
       <footer></footer>
     </>
