@@ -1,9 +1,21 @@
 .pTagColorChange p{
     color: blue;
 }
+h1{
+    font-size: 40px;
+}
+h1 p{
+    font-family: sans-serif;
+}
 .uppercase h4{
     text-transform: uppercase;
 }
 .cursive h4{
     font-family: cursive;
+}
+#blog-desc{
+    color: #314831;
+}
+#blog-title:hover{
+    color: orange;
 }

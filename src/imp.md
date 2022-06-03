@@ -45,3 +45,13 @@ if inline, internal and external css have same rules in that case inline css wil
 
 if internal and external css have same rules then it will depends on order of where link is written
 
+-----------------------------------------
+CSS selector in react
+id={styles["blog-desc"]}
+className={`${styles.uppercase} ${styles.cursive}`}
+
+prefrence 
+inline < id < class < type or tag
+
+if there r 2 selecter rule are written 1 after another so the latest selector rule will be applied 
+

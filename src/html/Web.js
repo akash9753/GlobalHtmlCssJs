@@ -30,6 +30,7 @@ const Ex1 = () => {
               blog.codingninjas.in
             </a>
           </p>
+          <p id={styles["blog-desc"]}>Coding Ninjas Official Blog</p>
         </div>
         {/* Header Image */}
         <img src="../media/cn2.png" alt="" />
@@ -39,7 +40,7 @@ const Ex1 = () => {
       <main>
         {/* Blog Heading */}
         <header>
-          <h1>Five tips for front-end web development</h1>
+          <h1 id={styles["blog-title"]}>Five tips for front-end web development</h1>
         </header>
         <article>
         {/* Blog Image */}
