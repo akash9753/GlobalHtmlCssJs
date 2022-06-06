@@ -19,6 +19,18 @@ const Index = () => {
         <li>
           <Link to="/css">Css</Link>
         </li>
+        <li>
+          <Link to="/position-property">Postion in css</Link>
+        </li>
+        <li>
+          <Link to="/box-model">Box Model</Link>
+        </li>
+        <li>
+          <Link to="/minmaxwidth">MinMaxWidth</Link>
+        </li>
+        <li>
+          <Link to="/resumeproject">Resume Project</Link>
+        </li>
       </ul>
       </div>
     </>

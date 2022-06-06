@@ -55,3 +55,106 @@ inline < id < class < type or tag
 
 if there r 2 selecter rule are written 1 after another so the latest selector rule will be applied 
 
+absolute unit px cm inch
+
+1 px = 1/96 inch
+
+relative unit % vh vw rem em 
+
+rem is relative to the font size of root element
+
+1 rem = font size of root
+if font size = 16px
+1 rem = 16px
+
+em = is relative to parent
+
+1 em = font size of parent
+
+font weight = 100 - 900
+
+vertical margin do not add 
+margin-bottom: 10px;
+margin-top: 10px;
+
+horozontal margin will be add
+margin-left: 10px;
+margin-right: 10px;
+
+padding => within the element
+margin=> outside the element
+
+Display  property inline block
+for an inline element we cant set its height and width
+inline element occupy only that much space that is required
+we cant give vertical margins and paddings
+
+inline-block => flexibility of both inline and block 
+
+----------------------------------------
+position property in css
+1.static => default
+
+2.relative => it will move with respect to its normal or original position & space will be reserved in the page layout
+top right left bottom
+
+
+3.absolute => with respect to 1st positioned parent or nearest positioned parent & no space will be reserved for it in the page layout
+
+4.fixed => stuck with the respect of view port
+
+5.sticky => 
+----------------------------------------------
+content Box Model => hieght and width that we specified foe an element 
+actually height & width of the content area
+
+if height and width are 200 & 200 px
+
+and there is border 2px and padding 2px
+
+so total height of the element will be
+
+Height = height of content 200 + border 4 + padding 4 = 208
+
+width = width of content 200+ border 4 + padding 4 = 208
+
+200*200 = 208*208
+
+---------------------------------------------------
+
+Border Box Model => content area height and width adjust autometically
+
+box-sizing property is by default content-box
+
+if height and width are 200 & 200 px
+
+and there is border 2px and padding 2px
+
+so total height of the element will be
+
+Height = height of content 192 + border 4 + padding 4 = 200
+
+width = width of content 192 + border 4 + padding 4 = 200
+
+200*200 = 200*200
+-------------------------------------------------
+
+box-shadow
+
+1. horizontal offset => more shadow towards the right
+if its negative it will be left side
+if it is zero it will be nutral 
+
+2. vertical offset => more shadow towards bottom
+positive for bottom
+negative for top
+
+3. blur
+
+4. spread
+
+5. color
+
+box-shadow: 0px 0px 6px 4px yellowgreen;
+
+----------------------------------------------------
