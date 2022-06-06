@@ -158,3 +158,12 @@ negative for top
 box-shadow: 0px 0px 6px 4px yellowgreen;
 
 ----------------------------------------------------
+
+Flex
+default direction is row direction
+by default order is 0
+
+---------------------------------------------------
+
+flex wrap
+flex-wrap: wrap; will give actual size of an element 

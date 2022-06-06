@@ -31,6 +31,9 @@ const Index = () => {
         <li>
           <Link to="/resumeproject">Resume Project</Link>
         </li>
+        <li>
+          <Link to="/flex">Flex</Link>
+        </li>
       </ul>
       </div>
     </>
