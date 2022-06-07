@@ -32,6 +32,9 @@ const Index = () => {
           <Link to="/resumeproject">Resume Project</Link>
         </li>
         <li>
+          <Link to="/resumeprojectcn">Resume Project CN</Link>
+        </li>
+        <li>
           <Link to="/flex">Flex</Link>
         </li>
       </ul>

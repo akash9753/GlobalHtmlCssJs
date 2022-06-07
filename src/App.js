@@ -10,6 +10,7 @@ import Css from './html/Css';
 import BoxModel from './html/BoxModel';
 import MinMaxWidth from './html/MinMaxWidth';
 import ResumeProject from './html/ResumeProject';
+import ResumeProjectCN from './html/ResumeProjectCN';
 import Flex from './html/Flex';
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
          <Route path="/box-model" element={<BoxModel/>} />
          <Route path="/minmaxwidth" element={<MinMaxWidth/>} />
          <Route path="/resumeproject" element={<ResumeProject/>} />
+         <Route path="/resumeprojectcn" element={<ResumeProjectCN/>} />
          <Route path="/flex" element={<Flex/>} />
         </Routes>
       </BrowserRouter>

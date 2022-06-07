@@ -167,3 +167,15 @@ by default order is 0
 
 flex wrap
 flex-wrap: wrap; will give actual size of an element 
+
+---------------------------------------------------
+
+justify content align item can take 5 values
+1.flex-start work with cross axis not main axis
+2.flex-end work with cross axis not main axis
+3.center
+4.baseline
+5.stretch
+
+is used align all the item across the cross axis 
+cross axis perpendicular to the main axis 

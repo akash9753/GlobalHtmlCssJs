@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../styles/resumeproject.module.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const ResumeProject = () => {
   return (
     <>
-    <h3>
-                <Link to="/">Home</Link>
-            </h3>
-      <header id={styles["body-header"]}>
+      <h3>
+        <Link to="/">Home</Link>
+      </h3>
+      <header id={styles["bodyHeader"]}>
         <nav>
           <ul
             className={`${styles.HorizontalList} ${styles.textCenter} ${styles.navMenu}`}
@@ -80,18 +80,12 @@ const ResumeProject = () => {
           <div id={styles["myImage"]}>
             <img src="/media/my_image.jpeg" alt="my image" />
           </div>
-          <p>
-            {" "}
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.{" "}
-          </p>
+
+          <div id={styles["about-para"]}>
+            <p>
+            Lorem Ipsum is simply dummy text of the printing and <span className={`${styles.textHighlight}`}>typesetting industry</span>. Lorem Ipsum has been the industry's standard <span className={`${styles.textHighlight}`}>dummy text ever</span> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <span className={`${styles.textHighlight}`}>with the release of Letraset</span> sheets containing Lorem Ipsum.
+            </p>
+          </div>
         </section>
 
         <section id={styles["skills"]}></section>
