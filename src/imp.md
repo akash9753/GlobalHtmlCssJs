@@ -170,7 +170,7 @@ flex-wrap: wrap; will give actual size of an element
 
 ---------------------------------------------------
 
-justify content align item can take 5 values
+ align item can take 5 values
 1.flex-start work with cross axis not main axis
 2.flex-end work with cross axis not main axis
 3.center

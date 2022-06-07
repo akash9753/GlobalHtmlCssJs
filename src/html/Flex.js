@@ -43,11 +43,18 @@ const Flex = () => {
                 <div id={styles["div3JScolumn"]}>Div 3</div>
             </div>
 
-            <h2>Flex Justify Content Align</h2>
-            <div id={styles["containerJSalign"]}>
-                <div id={styles["div1JSalign"]}>Div 1</div>
-                <div id={styles["div2JSalign"]}>Div 2</div>
-                <div id={styles["div3JSalign"]}>Div 3</div>
+            <h2>Flex Row Align item</h2>
+            <div id={styles["containerAlignItemRow"]}>
+                <div id={styles["div1AlignItemRow"]}>Div 1</div>
+                <div id={styles["div2AlignItemRow"]}>Div 2</div>
+                <div id={styles["div3AlignItemRow"]}>Div 3</div>
+            </div>
+
+            <h2>Flex Column Align item</h2>
+            <div id={styles["containerAlignItemColoumn"]}>
+                <div id={styles["div1AlignItemColoumn"]}>Div 1</div>
+                <div id={styles["div2AlignItemColoumn"]}>Div 2</div>
+                <div id={styles["div3AlignItemColoumn"]}>Div 3</div>
             </div>
 
             <h2>Flex Justify Content with Align item</h2>
