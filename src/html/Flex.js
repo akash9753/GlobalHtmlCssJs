@@ -1,8 +1,12 @@
 import React from 'react';
 import styles from "../styles/flex.module.css"
+import { Link } from 'react-router-dom';
 const Flex = () => {
     return (
         <>
+        <h3>
+                <Link to="/">Home</Link>
+            </h3>
             <div id={styles["container"]}>
                 <div id={styles["div1"]}>Div 1</div>
                 <div id={styles["div2"]}>Div 2</div>

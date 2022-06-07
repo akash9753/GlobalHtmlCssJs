@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "../styles/css.module.css";
+import { Link } from 'react-router-dom';
 const Css = () => {
   return (
     <>
+    <h3>
+                <Link to="/">Home</Link>
+            </h3>
       <h1>Display Property</h1>
       <span>Text 1</span>
       <span>Text 2</span>

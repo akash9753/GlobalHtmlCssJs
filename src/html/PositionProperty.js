@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "../styles/position.module.css";
+import { Link } from 'react-router-dom';
 const PositionProperty = () => {
   return (
     <>
+    <h3>
+                <Link to="/">Home</Link>
+            </h3>
       <div className={`${styles.rel}`}>
         <div id={styles["tv"]}>TV</div>
         <div id={styles["sofa"]}>Sofa</div>
