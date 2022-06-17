@@ -37,6 +37,15 @@ const Index = () => {
         <li>
           <Link to="/flex">Flex</Link>
         </li>
+        <li>
+          <Link to="/popupUserAccountMenu">PopupUserAccountMenu</Link>
+        </li>
+        <li>
+          <Link to="/bootstrap">Bootstrap</Link>
+        </li>
+        <li>
+          <Link to="/project2">Project2</Link>
+        </li>
       </ul>
       </div>
     </>

@@ -38,7 +38,7 @@ const ResumeProject = () => {
 
         <div id={styles["name-social-container"]}>
           <div className={`${styles.textCenter}`}>
-            <h1 id={styles["my-name"]}>Akash Patel</h1>
+            <h1 id={styles["my-name"]}>Elon Musk</h1>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const ResumeProject = () => {
       <main>
         <section id={styles["about"]}>
           <div id={styles["myImage"]}>
-            <img src="/media/my_image.jpeg" alt="my image" />
+            <img src="/media/my_image.jpg" alt="my image" />
           </div>
 
           <div id={styles["about-para"]}>
@@ -103,18 +103,113 @@ const ResumeProject = () => {
         </section>
 
         <section id={styles["skills"]}>
-           <h1 className={`${styles.skillsHeading} }`}>
-             <span>
-             <i class="fas fa-chalkboard-teacher"></i>
-             </span>
-             <span>SKILLS</span>
-             <div id={styles["skillsDisplay"]}></div>
-           </h1>
+          <h1 className={`${styles.sectionHeading} ${styles.mb75px}}`}>
+            <span>
+              <i className="fas fa-chalkboard-teacher"></i>
+            </span>
+            <span>SKILLS</span>
+          </h1>
+          <div id={styles["skillsDisplay"]}>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.htmlPercent}`}>
+                <div className={`${styles.skillName}`}>
+                  <span>Html</span>
+                </div>
+              </div>
+            </div>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.cssPercent} `}>
+                <div className={`${styles.skillName}`}>
+                  <span>Css</span>
+                </div>
+              </div>
+            </div>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.javascriptPercent}`}>
+                <div className={`${styles.skillName}`}>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id={styles["skillsDisplay"]}>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.htmlPercent}`}>
+                <div className={`${styles.skillName}`}>
+                  <span>Html</span>
+                </div>
+              </div>
+            </div>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.cssPercent} `}>
+                <div className={`${styles.skillName}`}>
+                  <span>Css</span>
+                </div>
+              </div>
+            </div>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.javascriptPercent}`}>
+                <div className={`${styles.skillName}`}>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id={styles["skillsDisplay"]}>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.htmlPercent}`}>
+                <div className={`${styles.skillName}`}>
+                  <span>Html</span>
+                </div>
+              </div>
+            </div>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.cssPercent} `}>
+                <div className={`${styles.skillName}`}>
+                  <span>Css</span>
+                </div>
+              </div>
+            </div>
+            <div className={`${styles.skillProgress}`}>
+              <div className={`${styles.javascriptPercent}`}>
+                <div className={`${styles.skillName}`}>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        <section id={styles["experience"]}></section>
-        <section id={styles["education"]}></section>
-        <section id={styles["portfolio"]}></section>
-        <section id={styles["contact"]}></section>
+        <section id={styles["experience"]}>
+        <h1 className={`${styles.sectionHeading} ${styles.mb75px}}`}>
+            <span>
+              <i className="fas fa-briefcase"></i>
+            </span>
+            <span>Work Experience</span>
+          </h1>
+
+          <div className={`${styles.timeline}`}>
+            <div className={`${styles.timelineBox}`}></div>
+            <div className={`${styles.timelineBox}`}></div>
+            <div className={`${styles.timelineBox}`}></div>
+            <div className={`${styles.timelineBox}`}></div>
+            <div className={`${styles.timelineDevider}`}>
+              <div className={`${styles.timelineTraveller}`}>
+              <i class="fa-solid fa-plane"></i>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+        <section id={styles["education"]}>
+          Education
+        </section>
+        <section id={styles["portfolio"]}>
+          Portfolio
+        </section>
+        <section id={styles["contact"]}>
+          Contact
+        </section>
       </main>
     </>
   );

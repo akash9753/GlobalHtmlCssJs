@@ -3,10 +3,10 @@ import styles from "../styles/resumeprojectcn.module.css";
 const ResumeProjectCN = () => {
     return (
         <>
-            <header id={styles["bodyHeader"]}>
+            <header id="body-header">
         <nav>
 
-            <ul className={`${styles.HorizontalList} ${styles.textCenter} ${styles.navMenu}`}>
+            <ul class="horizontal-list text-center nav-menu">
                 <li>
                     <a href="#"> Home </a>
                 </li>
@@ -31,14 +31,14 @@ const ResumeProjectCN = () => {
             </ul>
         </nav>
 
-        <div id={styles["name-social-container"]}>
-            <div className={`${styles.textCenter}`}>
-                <h1 id={styles["my-name"]}>
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">
                     Manisha Khattar
                 </h1>
             </div>
             <div>
-                <ul className={`${styles.HorizontalList} ${styles.textCenter} ${styles.socialIcons}`}>
+                <ul class="horizontal-list text-center social-icons">
                     <li>
                         <a href="#">
                             <i class="fab fa-linkedin-in"></i>
@@ -70,30 +70,45 @@ const ResumeProjectCN = () => {
     </header>
     <main>
 
-        <section id={styles["about"]}>
-            <div id={styles["myImage"]}>
-                <img src="/media/my_image.jpeg" alt="my image"/>
+        <section id="about">
+            <div id="my-image">
+                <img src="image/my_image.jpg"/>
             </div>
-            <div id={styles["about-para"]}>
+            <div id="about-para">
 
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and <span className={`${styles.textHighlight}`}>typesetting industry</span>. Lorem Ipsum has been the industry's standard <span className={`${styles.textHighlight}`}>dummy text ever</span> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <span className={`${styles.textHighlight}`}>with the release of Letraset</span> sheets containing Lorem Ipsum.
+                    Lorem Ipsum is simply dummy text of the printing and <span class="text-highlight">typesetting industry</span>. Lorem Ipsum has been the industry's standard <span class="text-highlight">dummy text ever</span> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <span class="text-highlight">with the release of Letraset</span> sheets containing Lorem Ipsum.
                 </p>
-                <div id={styles["container"]}>
-                <div id={styles["div1"]}>div1</div>
-                <div id={styles["div2"]}>div2</div>
-                <div id={styles["div3"]}>div3</div>
-                </div>
             </div>
 
 
         </section>
-       <section id="skills">
+
+
+
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+                <div class="skill-progress">
+
+                </div>
+
+
+            </div>
 
         </section>
+
         <section id="experience">
 
         </section>
+
         <section id="education">
 
         </section>

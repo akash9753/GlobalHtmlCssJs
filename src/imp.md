@@ -105,7 +105,7 @@ top right left bottom
 
 5.sticky => 
 ----------------------------------------------
-content Box Model => hieght and width that we specified foe an element 
+content Box Model => hieght and width that we specified for an element 
 actually height & width of the content area
 
 if height and width are 200 & 200 px
@@ -179,3 +179,36 @@ flex-wrap: wrap; will give actual size of an element
 
 is used align all the item across the cross axis 
 cross axis perpendicular to the main axis 
+
+-----------------------------------------
+pseudo classes 1 collon :
+pseudo element 2 collon ::
+------------------------------------------
+Bootstrap 5
+container-fluid 100% width
+
+Bootstrap flow
+container > row > column > row > column > content
+
+X-small                0px-575px               [col-*]         col-12 col-12 col-12
+small                  576px-767px             [col-sm-*]      col-sm-12 col-sm-12 col-sm-12
+Medium                 768px - 991px           [col-md-*]      col-md-12 col-md-12 col-md-12
+Large                  992px-1199px            [col-lg-*]      col-lg-4 col-lg-6 col-lg-2
+Extra Large            1200px - 1399px         [col-xl-*]      col-xl-4 col-xl-6 col-xl-2
+Extra extra large      1400px-infinte          [col-xxl-*]     col-xxl-4 col-xxl-6 col-xxl-2
+
+
+X-small                0px-575px               [col-*]         col-6 col-6 col-12
+small                  576px-767px             [col-sm-*]      col-sm-8 col-sm-4 col-sm-6
+Medium                 768px - 991px           [col-md-*]      col-md-6 col-md-3 col-md-3
+Large                  992px-1199px            [col-lg-*]      col-lg-4 col-lg-6 col-lg-2
+Extra Large            1200px - 1399px         [col-xl-*]      col-xl-5 col-xl-5 col-xl-2
+Extra extra large      1400px-infinte          [col-xxl-*]     col-xxl-4 col-xxl-6 col-xxl-2
+
+reordering***************
+X-small                0px-575px               [col-*]         default 1 2 3
+small                  576px-767px             [col-sm-*]      default 1 2 3
+Medium                 768px - 991px           [col-md-*]      default 1 2 3 
+Large                  992px-1199px            [col-lg-*]      3 1 2
+Extra Large            1200px - 1399px         [col-xl-*]      3 1 2
+Extra extra large      1400px-infinte          [col-xxl-*]     3 1 2

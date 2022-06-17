@@ -1,7 +1,7 @@
 import './App.css';
 import Index from './html/Index';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { useEffect } from 'react';
 import PositionProperty from './html/PositionProperty';
 import Web from './html/Web'
 import Test from './html/Test';
@@ -12,7 +12,13 @@ import MinMaxWidth from './html/MinMaxWidth';
 import ResumeProject from './html/ResumeProject';
 import ResumeProjectCN from './html/ResumeProjectCN';
 import Flex from './html/Flex';
+import PopupUserAccountMenu from "./popupUserAccountMenu/PopupUserAccountMenu";
+import Bootstrap from './bootstrap/Bootstrap';
+import Project2 from './topgunProject/Project2'
 function App() {
+  useEffect(() => {
+    document.title = "Global Html Css React";
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>
@@ -28,6 +34,9 @@ function App() {
          <Route path="/resumeproject" element={<ResumeProject/>} />
          <Route path="/resumeprojectcn" element={<ResumeProjectCN/>} />
          <Route path="/flex" element={<Flex/>} />
+         <Route path="/popupUserAccountMenu" element={<PopupUserAccountMenu/>} />
+         <Route path="/bootstrap" element={<Bootstrap/>} />
+         <Route path="/project2" element={<Project2/>} />
         </Routes>
       </BrowserRouter>
     </div>

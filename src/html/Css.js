@@ -42,9 +42,36 @@ const Css = () => {
       <p>Sample paragraph</p>
       <p>Sample paragraph</p>
       <p>Sample paragraph</p>
+       
 
+       <h1>Overflown</h1>
+       <div id={styles["container"]}>
+        <p>this is a sample documnet</p>
+       </div>
       
+
+      <h1>Gradient Effect</h1>
+      <div id={styles["containerG"]}>
+        
+       </div>
+
+
+       <h1>Link Related psedo Classes</h1>
+       <div id={styles["containerLinkPseudo"]}>
+        <p>Click <a href="https://www.google.com"
+        target="_blank"> google </a> to search</p>
+       </div>
+
+       <h1>Learn about pseudo elements</h1>
+       <p>Learn about pseudo elements</p>
+       <p>Learn about pseudo elements</p>
+
+
+       <h1>before and after psedo classes</h1>
+       <p>Heading</p>
     </>
+
+  
   );
 };
 
