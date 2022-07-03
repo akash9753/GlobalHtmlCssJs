@@ -17,7 +17,7 @@ const Project2 = () => {
             </a>
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -25,7 +25,7 @@ const Project2 = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
 
             <div
@@ -71,7 +71,7 @@ const Project2 = () => {
                   type="submit"
                   id="searchbtn"
                 >
-                  <i class="bi bi-search"></i>
+                  <i className="bi bi-search"></i>
                 </button>
               </form>
             </div>
@@ -123,25 +123,114 @@ const Project2 = () => {
          {/* counter */}
          <div className="row justify-content-center" id="counter-section">
           <div className="col-md-3 text-center text-white mt-5 mb-3">
-          <i class="bi bi-heart-half counter-icon"></i>
+          <i className="bi bi-heart-half counter-icon"></i>
           <h3>
             +34793<br/>
             Happy Client
           </h3>
           </div>
           <div className="col-md-3 text-center text-white mt-5 mb-3">
-          <i class="bi bi-building counter-icon"></i>
+          <i className="bi bi-building counter-icon"></i>
           <h3>+45382<br/>
           Department
           </h3>
           </div>
           <div className="col-md-3 text-center text-white mt-5 mb-3">
-          <i class="bi bi-eyedropper counter-icon"></i>
+          <i className="bi bi-eyedropper counter-icon"></i>
           <h3>+54762<br/>
           Vaccinations
           </h3>
           </div>
          </div>
+
+         {/* blog */}
+         <div className="row justify-content-center" id="blog">
+          <div className="col-12 text-center" >
+            <h1 id="blog-title">Recent Posts</h1>
+            <p id="blog-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/>
+            Assumenda eveniet cum possium magnam
+            </p>
+          </div>
+          
+          <div className="col-md-3 col-11 mt-4">
+          <img
+              src={require("./media/dog13.jpeg")}
+              alt="dog"
+              className="img-fluid"
+              
+            />
+            <div className="article-detail">
+              <h4 className="article-title">As a veterinarian and lover of animals.</h4>
+              <p className="article-date">JUNE 20, 2022</p>
+              <p className="article-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                 Assumenda eveniet cum possium magnam</p>
+              <p><a href="#" className="article-link">Read More+</a></p>
+            </div>
+          </div>
+
+          <div className="col-md-3 col-11 mt-4">
+          <img
+              src={require("./media/dog14.jpeg")}
+              alt="dog"
+              className="img-fluid"
+            />
+            <div className="article-detail">
+              <h4 className="article-title">As a veterinarian and lover of animals.</h4>
+              <p className="article-date">JUNE 20, 2022</p>
+              <p className="article-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                 Assumenda eveniet cum possium magnam</p>
+              <p><a href="#" className="article-link">Read More+</a></p>
+            </div>
+          </div>
+          <div className="col-md-3 col-11 mt-4">
+          <img
+              src={require("./media/dog15.jpeg")}
+              alt="dog"
+              className="img-fluid"
+            />
+            <div className="article-detail">
+              <h4 className="article-title">As a veterinarian and lover of animals.</h4>
+              <p className="article-date">JUNE 20, 2022</p>
+              <p className="article-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                 Assumenda eveniet cum possium magnam</p>
+              <p><a href="#" className="article-link">Read More+</a></p>
+            </div>
+          </div>
+          </div>
+
+           {/* Footer */}
+           <div className="row justify-content-center text-white" id="footer">
+            <div className="col-md-3 col-11">
+              <h4>About</h4>
+              <a href="">History</a><br/>
+              <a href="">Our Team</a><br/>
+              <a href="">Brand Guidelines</a><br/>
+              <a href="">Terms and Condition</a><br/>
+              <a href="">Privacy Policy</a><br/>
+            </div>
+            <div className="col-md-2 col-11">
+              <h4>Services</h4>
+              <a href="">How to Order</a><br/>
+              <a href="">Our Products</a><br/>
+              <a href="">Order Status</a><br/>
+              <a href="">Promo</a><br/>
+              <a href="">Payment Method</a><br/>
+            </div>
+            <div className="col-md-4 col-11 text-end">
+              <h4>Title Here</h4>
+              <p>Lorem ipsum dolor sit amet</p>
+              <form action="" id="footer-form">
+                <input type="text" id="footer-search-box" />
+                <button type="submit" id="footer-search-submit"><i className="bi bi-cursor-fill"></i></button>
+              </form>
+              <i className="bi bi-instagram social-icon"></i>
+              <i className="bi bi-facebook social-icon"></i>
+              <i className="bi bi-twitter social-icon"></i>
+              <i className="bi bi-whatsapp social-icon"></i>
+            </div>
+           </div>
+
+         
 
         {/* container-fluid */}
       </div>
@@ -151,3 +240,5 @@ const Project2 = () => {
 };
 
 export default Project2;
+
+<i className="bi bi-instagram"></i>

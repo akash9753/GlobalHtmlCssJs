@@ -23,8 +23,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-         <Route path="/" element={<Index />} />
-         <Route path="/web" element={<Web />} />
+         {/* <Route path="/" element={<Index />} /> */}
+         <Route path="/" element={<Web />} />
          <Route path="/general" element={<General />} />
          <Route path="/test" element={<Test />} />
          <Route path="/css" element={<Css />} />

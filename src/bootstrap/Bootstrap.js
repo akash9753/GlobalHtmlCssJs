@@ -96,14 +96,15 @@ const Bootstrap = () => {
 
       <h1>d-flex flex-column flex-row</h1>
       <div className="container-fluid">
-        {/* <div className="row d-flex flex-row" style={{backgroundColor: "orange", height:200}}> */}
+        <div className="row d-flex flex-column justify-content-center align-items-center" style={{backgroundColor: "orange", height:200}}>
         {/* <div className="row d-flex flex-row-reverse" style={{backgroundColor: "orange", height:200}}> */}
         {/* <div className="row d-flex flex-column" style={{backgroundColor: "orange", height:200}}> */}
-        {/* <div className="row d-flex flex-column" style={{backgroundColor: "orange", height:200}}> */}
         {/* <div className="row d-flex flex-column-reverse" style={{backgroundColor: "orange", height:200}}> */}
-        <div className="row d-flex flex-column-reverse" style={{backgroundColor: "orange", height:200}}>
-            <div className="col-lg-4 bg-primary text-white">div1</div>
-            <div className="col-lg-4 bg-secondary text-white"> div 2</div>
+        
+            <div className="col-lg-4 bg-primary text-white ">div1
+            <img src="media/logo.png" alt="" />
+            </div>
+            <div className="col-lg-4 bg-secondary text-white ">div 2</div>
         </div>
       </div>
     </>
